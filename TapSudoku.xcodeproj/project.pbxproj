@@ -25,6 +25,7 @@
 		17035E782944F37B00444349 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		17035E7A2944F86E00444349 /* Color-Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Cells.swift"; sourceTree = "<group>"; };
 		17035E7C2944F92100444349 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		170BD79B2945201E00B91EFA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		17035E5E2944F33200444349 = {
 			isa = PBXGroup;
 			children = (
+				170BD79B2945201E00B91EFA /* README.md */,
 				17035E692944F33300444349 /* TapSudoku */,
 				17035E682944F33300444349 /* Products */,
 			);
