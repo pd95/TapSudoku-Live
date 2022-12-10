@@ -11,6 +11,9 @@
 		17035E6D2944F33300444349 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17035E6C2944F33300444349 /* ContentView.swift */; };
 		17035E6F2944F33300444349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17035E6E2944F33300444349 /* Assets.xcassets */; };
 		17035E722944F33300444349 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17035E712944F33300444349 /* Preview Assets.xcassets */; };
+		17035E792944F37B00444349 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17035E782944F37B00444349 /* Board.swift */; };
+		17035E7B2944F86E00444349 /* Color-Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17035E7A2944F86E00444349 /* Color-Cells.swift */; };
+		17035E7D2944F92100444349 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17035E7C2944F92100444349 /* CellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		17035E6C2944F33300444349 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17035E6E2944F33300444349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17035E712944F33300444349 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17035E782944F37B00444349 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		17035E7A2944F86E00444349 /* Color-Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Cells.swift"; sourceTree = "<group>"; };
+		17035E7C2944F92100444349 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				17035E6A2944F33300444349 /* TapSudokuApp.swift */,
 				17035E6C2944F33300444349 /* ContentView.swift */,
+				17035E7C2944F92100444349 /* CellView.swift */,
+				17035E7A2944F86E00444349 /* Color-Cells.swift */,
+				17035E782944F37B00444349 /* Board.swift */,
 				17035E6E2944F33300444349 /* Assets.xcassets */,
 				17035E702944F33300444349 /* Preview Content */,
 			);
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				17035E6D2944F33300444349 /* ContentView.swift in Sources */,
+				17035E7D2944F92100444349 /* CellView.swift in Sources */,
 				17035E6B2944F33300444349 /* TapSudokuApp.swift in Sources */,
+				17035E792944F37B00444349 /* Board.swift in Sources */,
+				17035E7B2944F86E00444349 /* Color-Cells.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
