@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var board = Board(difficulty: .testing)
+    @State private var board = Board(difficulty: Board.Difficulty.easiest)
     private let spacing = 4.0
 
     @State private var selectedRow = -1

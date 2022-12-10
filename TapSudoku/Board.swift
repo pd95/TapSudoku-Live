@@ -17,6 +17,8 @@ struct Board: Equatable {
         case medium = 24
         case hard = 27
         case extreme = 29
+
+        static let easiest = allCases.first ?? .trivial
     }
 
     let size = 9
