@@ -23,6 +23,7 @@ struct Board: Equatable {
     let difficulty: Difficulty
     var fullBoard = [[Int]]()
     var playerBoard = [[Int]]()
+    var fixedBoard = [[Bool]]()
 
     init(difficulty: Difficulty) {
         self.difficulty = difficulty
@@ -63,5 +64,7 @@ struct Board: Equatable {
             playerBoard[row][column] = 0
             playerBoard[8 - row][8 - column] = 0
         }
+
+        fixedBoard = playerBoard.map({ $0.map({ $0 != 0 }) })
     }
 }

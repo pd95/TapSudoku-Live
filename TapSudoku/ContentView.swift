@@ -57,6 +57,7 @@ struct ContentView: View {
                         .opacity(counts[i, default: 0] == 9 ? 0 : 1)
                     }
                 }
+                .disabled(selectedRow == -1 || board.fixedBoard[selectedRow][selectedCol])
                 .padding()
             }
             .navigationTitle("Tap Sudoku")
